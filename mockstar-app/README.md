@@ -1,4 +1,4 @@
-# matman-app
+# mockstar-app
 
 
 本项目用于处理数据打桩。
@@ -6,7 +6,7 @@
 
 ## 启动
 
-在 matman-app 中执行以下命令即可。
+在 mockstar-app 中执行以下命令即可。
 
 ```
 npm start
@@ -20,7 +20,7 @@ npm start
 
 ## 查看运行情况
 
-使用了 [pm2](https://www.npmjs.com/package/pm2) 来启动，命名为 `matman-app`，启动之后服务会常驻内存。关于 pm2 常用的操作包括：
+使用了 [pm2](https://www.npmjs.com/package/pm2) 来启动，命名为 `mockstar-app`，启动之后服务会常驻内存。关于 pm2 常用的操作包括：
 
 - `pm2 list` ： 查看所有服务
 - `pm2 logs` ： 查看日志

@@ -6,11 +6,11 @@ import './index.less';
 export default function Home() {
     return (
         <div className="page-home">
-            <h1>matman 演示项目</h1>
-            <p>这是 <a href="https://github.com/matmanjs/matman" target="_blank"
-                     rel="noopener noreferrer">matman</a> 的演示项目，我们构造了几个典型场景，用于展示
-                matman 强大的数据模拟功能，以及如何便捷的进行 web 前端自动化测试的。如果您有更好的建议或者遇到一些问题，欢迎给我们提 <a
-                    href="https://github.com/matmanjs/matman/issues" target="_blank"
+            <h1>mockstar 演示项目</h1>
+            <p>这是 <a href="https://github.com/mockstarjs/mockstar" target="_blank"
+                     rel="noopener noreferrer">mockstar</a> 的演示项目，我们构造了几个典型场景，用于展示
+                mockstar 强大的数据模拟功能，以及如何便捷的进行 web 前端自动化测试的。如果您有更好的建议或者遇到一些问题，欢迎给我们提 <a
+                    href="https://github.com/mockstarjs/mockstar/issues" target="_blank"
                     rel="noopener noreferrer">Issues</a>！</p>
 
             <h2>1. 示例说明</h2>

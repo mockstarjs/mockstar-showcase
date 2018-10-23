@@ -1,10 +1,10 @@
 import sinon from 'sinon';
 import jsbridgeUtil from '../jsbridge-util';
 
-export default class AsyncRequestMatmanInfo {
+export default class AsyncRequestMockstarInfo {
     constructor(asyncClient) {
         this.asyncClient = asyncClient;
-        this.route = '/async/a/b/async_request_matman_info';
+        this.route = '/async/a/b/async_request_mockstar_info';
     }
 
     init() {

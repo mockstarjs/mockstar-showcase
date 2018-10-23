@@ -22,7 +22,7 @@ export default class HighorderJsbridgeRequest extends Component {
 
         this.isLoading = true;
 
-        request({ name: 'matman' })
+        request({ name: 'mockstar' })
             .then((data) => {
                 console.log('request() then', data);
 

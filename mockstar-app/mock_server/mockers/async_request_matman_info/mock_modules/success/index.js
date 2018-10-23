@@ -1,6 +1,6 @@
 module.exports = function (params) {
     return {
-        name: 'matman',
-        desc: `description for matman! params=${JSON.stringify(params)}`
+        name: 'mockstar',
+        desc: `description for mockstar! params=${JSON.stringify(params)}`
     };
 };

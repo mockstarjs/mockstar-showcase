@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import matmanStub from './business/matman-stub';
+import mockstarStub from './business/mockstar-stub';
 
 import JsbridgeRequest from './components/highorder-jsbridge-request';
 import HighorderRecievePush from './components/highorder-recieve-push';
@@ -11,7 +11,7 @@ export default class StubAsync extends Component {
     constructor(props, context) {
         super(props, context);
 
-        matmanStub();
+        mockstarStub();
     }
 
     render() {
