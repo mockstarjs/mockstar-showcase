@@ -17,6 +17,7 @@ whistle 代理
 
 ```
 now.qq.com/cgi-bin 127.0.0.1:9527
+local.mockstarjs.org 127.0.0.1:9527
 ```
 
 为了便于处理，在 `middlewares/api.js` 中，我们将 CGI 中 `retcode !== 0` 作为 CGI 请求失败。

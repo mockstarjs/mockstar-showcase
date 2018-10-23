@@ -1,0 +1,11 @@
+{
+  "name": "mockstar-app",
+  "scripts": {
+    "start": "mockstar start",
+    "start-dev": "mockstar start --dev",
+    "start-tmp": "node ../../mockstar/packages/mockstar-cli/bin/mockstar start --dev"
+  },
+  "dependencies": {
+    "mockstar": "^0.1.3"
+  }
+}
