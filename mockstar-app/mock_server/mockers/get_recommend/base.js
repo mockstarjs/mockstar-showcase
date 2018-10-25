@@ -15,7 +15,7 @@ const defaultResult = {
  * @returns {Object}
  */
 function getSuccess(result) {
-    return baseCgi.getSuccess(Object.assign({}, defaultResult, result));
+    return baseCgi.success(Object.assign({}, defaultResult, result));
 }
 
 /**
@@ -25,11 +25,11 @@ function getSuccess(result) {
  * @param {String} [errMsg] 错误信息
  * @returns {Object}
  */
-function getFail(errCode, errMsg = '') {
-    return baseCgi.getFail(errCode, errMsg);
+function getErrorData(errCode, errMsg = '') {
+    return baseCgi.error(errCode, errMsg);
 }
 
 module.exports = {
     getSuccess: getSuccess,
-    getFail: getFail
+    getErrorData: getErrorData
 };

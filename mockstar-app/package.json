@@ -2,10 +2,12 @@
   "name": "mockstar-app",
   "scripts": {
     "start": "mockstar start",
-    "start-dev": "mockstar start --dev",
-    "start-tmp": "node ../../mockstar/packages/mockstar-cli/bin/mockstar start --dev"
+    "stop": "mockstar stop",
+    "logs": "mockstar pm2 logs"
   },
   "dependencies": {
-    "mockstar": "^0.1.3"
+    "mock-with": "^1.1.0",
+    "mockjs": "^1.0.1-beta3",
+    "mockstar": "^0.2.5"
   }
 }

@@ -1,5 +1,5 @@
-const { getFail } = require('../../base');
+const { getErrorData } = require('../../base');
 
 module.exports = function () {
-    return getFail(100001, '后台内部错误');
+    return getErrorData(100001, '后台内部错误');
 };
