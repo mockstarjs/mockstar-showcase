@@ -1,13 +1,13 @@
 {
   "name": "mockstar-app",
   "scripts": {
-    "start": "mockstar start",
-    "stop": "mockstar stop",
-    "logs": "mockstar pm2 logs"
+    "start": "mockstar start --watch",
+    "dev": "mockstar run --dev --watch",
+    "stop": "mockstar stop"
   },
   "dependencies": {
     "mock-with": "^1.1.0",
-    "mockjs": "^1.0.1-beta3",
-    "mockstar": "^0.2.5"
+    "mockjs": "^1.1.0",
+    "mockstar": "^1.1.4"
   }
 }
